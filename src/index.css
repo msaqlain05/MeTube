@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --yt-bg: #0f0f0f;
+  --yt-surface: #272727;
+  --yt-surface-hover: #3f3f3f;
+  --yt-border: #3f3f3f;
+  --yt-text: #f1f1f1;
+  --yt-text-secondary: #aaaaaa;
+  --yt-red: #ff0000;
+  --yt-red-soft: #cc0000;
+  --yt-header: #0f0f0f;
+  --yt-radius: 12px;
+  --yt-radius-sm: 8px;
+  --yt-font: 'Roboto', 'Inter', system-ui, sans-serif;
+  --yt-header-h: 56px;
+  --yt-rail-default: 402px;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--yt-font);
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--yt-text);
+  background: var(--yt-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root,
+.app {
+  height: 100%;
+  max-height: 100dvh;
+  overflow: hidden;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input {
+  font-family: inherit;
+}
+
+/* Smooth panel resize — GPU-friendly, no transition while dragging */
+body.is-resizing,
+body.is-resizing * {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+body.is-resizing .app__body {
+  touch-action: none;
+}

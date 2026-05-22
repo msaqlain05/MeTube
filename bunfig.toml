@@ -1,0 +1,5 @@
+[install]
+peer = true
+
+[run]
+# Use Bun to execute package.json scripts (default when invoked via `bun run`)
