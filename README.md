@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Video Player
 
 React + TypeScript app powered by [Bun](https://bun.sh) and [Vite](https://vite.dev).
@@ -48,3 +49,6 @@ Import from `src` using the `@/` alias, e.g. `import App from '@/App.tsx'`.
 - **Language:** TypeScript 6
 
 Supported formats: MP4, WebM, OGG, MOV, M4V, MKV, AVI, and other `video/*` types your browser can decode.
+=======
+# MeTube
+>>>>>>> 24ba8185b3ba31a8f3053bc1d42a82cedc177b66
