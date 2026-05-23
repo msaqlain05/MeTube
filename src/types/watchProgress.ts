@@ -8,3 +8,5 @@ export interface WatchProgressStore {
   version: 1
   items: Record<string, VideoWatchProgress>
 }
+
+// define a type that is a record of string and VideoWatchProgressss
